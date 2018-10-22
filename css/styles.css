@@ -3,6 +3,11 @@ html {
     font-family: serif;
 }
 
+* { 
+    box-sizing: border-box; 
+    margin: 0; 
+}
+
 h1 {
     border-color: black;
     border: solid;
