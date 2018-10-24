@@ -32,3 +32,25 @@ img {
     box-shadow: #000000 5px 5px;
     border-color: #ad3d42;
 }
+
+#logo
+{
+    
+}
+
+.pics img {
+    padding: 1em;
+    margin: 1em;
+    height: auto;
+    width: 150px;
+    margin: 0;
+    overflow: hidden;
+    opacity: 0.7;
+    transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.pics img:hover {
+    opacity: 1;
+    transform: scale(1.03);
+}
