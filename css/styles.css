@@ -8,7 +8,8 @@ html {
     margin: 0; 
 }
 
-h1 {
+header {
+    height: 110px;
     border-color: black;
     border: solid;
     background-color: white;
@@ -22,8 +23,7 @@ img {
 
 .links {
     color: salmon;
-    border: solid;
-    border-color: salmon;
+
     background-color: white;
     padding: 5px;
 }
