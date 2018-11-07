@@ -5,22 +5,23 @@
     <meta charset="utf-8">
     <title>Nikon Photos</title>
     <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/flexbox.css">
 </head>
 
 <body>
-    <header>
-        <div>
+    <header class="flexheader">
+        <div class=flexcontainer>
             <h1><a href="Index.html"><img src="Images/logo.png" alt="camera logo" height="70" id="logo"></a></h1>
         </div>
-        <div>
+        <div class="flexnav">
             <nav>
                 <a href="Index.html" class="links">HOME</a>
                 <a href="iPhone%20Photos.html" class="links">IPHONE PHOTOS</a>
             </nav>
         </div>
     </header>
-    <main>
-        <div>
+    <main class="flexmain">
+        <div class="flexcontainer">
             <h2>Nikon Photos</h2>
             <p>Last semester, I learned how to shoot with a DSLR camera on a Nikon D750, and this summer, I caved and bought one for myself. There are definitely cheaper cameras of the same quality, so if you're looking to buy your own camera, don't feel pressured to spend $2000. That being said, the D750 has great quality photos and I love the weight of it in my hands.</p>
             <p><em><strong>Benefits of using a DLSR camera</strong></em>
@@ -30,12 +31,13 @@
                     <li><em>Shooting in RAW creates more widely editable images</em></li>
                 </ul>
         </div>
-        <div><img src="Images/dogs.jpg" alt="Finn and Winslow the dogs" height="170">
+        <div>
+            <img src="Images/dogs.jpg" alt="Finn and Winslow the dogs" height="170">
             <img src="Images/algae.jpg" alt="Algae at La Jolla Beach" height="170">
             <img src="Images/swoop.jpg" alt="Swoop" height="170"></div>
     </main>
-    <footer>
-        <p style="text-align: center; color: darkslategrey;">&copy; Nazareth College 2018</p>
+    <footer class="flexfooter">
+        <div><p style="text-align: center; color: darkslategrey;">&copy; Nazareth College 2018</p></div>
     </footer>
 </body>
 

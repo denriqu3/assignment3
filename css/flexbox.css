@@ -1,0 +1,29 @@
+.flexcontainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.flexheaer {
+    display: flex;
+    background-color: darkcyan;
+}
+
+.flexnav {
+    display: flex;
+}
+
+.flexmain {
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+}
+
+.flexbio {
+    display: flex;
+    
+}
+
+.flexfooter {
+    display: flex;
+    background-color: darkgrey;
+}
