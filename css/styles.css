@@ -5,14 +5,16 @@ html {
 
 * { 
     box-sizing: border-box; 
-    margin-bottom: inherit
+    margin: 0; 
 }
 
 header {
     background-color: darkcyan;
 }
 
-
+nav {
+    display: flex;
+    justify-content: center;
 }
 
 main {
@@ -20,7 +22,7 @@ main {
 }
 
 footer {
-    background-color: darkgray;
+    background-color: lightcyan;
 }
 
 img {
@@ -29,13 +31,17 @@ img {
     border-color: black;
 }
 
-.links {
+a {
     padding: 5px;
     font-size: 25px;
-    color: white
+    color: white;
+    text-decoration: none;
 }
 
-
+h2 {
+    text-align: center;
+    padding-bottom: 15px;
+}
 
 /*#special-image {
     box-shadow: #000000 5px 5px;
@@ -46,4 +52,5 @@ img {
 {
     border: none;
     color: white;
+    padding-left: 5px;
 }

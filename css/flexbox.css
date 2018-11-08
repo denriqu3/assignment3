@@ -1,29 +1,45 @@
 .flexcontainer {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 
-.flexheaer {
+.flexheader {
     display: flex;
+    flex-wrap: wrap;
     background-color: darkcyan;
+    flex-direction: row;
 }
 
-.flexnav {
-    display: flex;
-}
 
 .flexmain {
     display: flex;
     background-color: white;
     flex-direction: column;
+    padding: 15px;
 }
 
-.flexbio {
+.flexbio1 {
     display: flex;
+    flex-direction: row;
+}
+
+.flexbio2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-left: 10px;
     
+}
+
+.fleximg {
+    display: flex;
+    flex-direction: row;
 }
 
 .flexfooter {
     display: flex;
-    background-color: darkgrey;
+    background-color: lightcyan;
+    align-content: center;
 }
