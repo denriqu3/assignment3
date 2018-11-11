@@ -2,6 +2,8 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    background: #67cbc3;
+    padding: 15px;
 }
 
 .flexheader {
@@ -10,7 +12,6 @@
     background-color: darkcyan;
     flex-direction: row;
 }
-
 
 .flexmain {
     display: flex;
@@ -35,7 +36,9 @@
 
 .fleximg {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
+    justify-content: center;
 }
 
 .flexfooter {
